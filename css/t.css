@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container Styles */
+.container-fluid {
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Title Styles */
+.section-title {
+    position: relative;
+    text-align: center;
+    margin: 0 auto 3rem;
+    padding-bottom: 1.5rem;
+    max-width: 600px;
+}
+
+.section-title h2 {
+    color: #007bff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-title h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Testimonial Carousel Styles */
+.owl-carousel .testimonial-item {
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 1.5rem;
+}
+
+.testimonial-item .d-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.testimonial-item img {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.testimonial-item .ps-3 {
+    padding-left: 1rem;
+}
+
+.testimonial-item h4 {
+    color: #007bff;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-item span {
+    display: block;
+    font-size: 0.875rem;
+    color: #ccc;
+}
+
+.testimonial-item p {
+    margin-bottom: 0;
+}

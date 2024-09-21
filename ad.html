@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Support </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="CrestWave" name="keywords">
+
+    <link rel="shortcut icon" href="https://mjahmad1.github.io/cwbd/img/cwld.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- ser -->
+    <link href="https://mjahmad1.github.io/mjp/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/css/style.css" rel="stylesheet">
+
+    <link href="l/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="l/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="l/css/style.css" rel="stylesheet">
+    <link href="css/pt5.css" rel="stylesheet">
+
+<style>
+    body {
+        background: #f7f7ff;
+        font-family: "Montserrat", sans-serif;
+        width: 80%;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    header {
+        color: hsl(233, 13%, 49%);
+        margin: 3.3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        max-width: 1090px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+        .wrapper .table {
+            background: #fff;
+            width: calc(33% - 20px);
+            padding: 30px 30px;
+            position: relative;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+    @media (max-width: 1020px) {
+        .wrapper .table {
+            width: calc(50% - 20px);
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (max-width: 698px) {
+        .wrapper .table {
+            width: 100%;
+        }
+    }
+
+    .table .price-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .price-section .price-area {
+        height: 120px;
+        width: 120px;
+        background: #ffd861;
+        border-radius: 50%;
+        padding: 2px;
+    }
+
+        .price-section .price-area .inner-area {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            color: #fff;
+            line-height: 117px;
+            text-align: center;
+            position: relative;
+        }
+
+    .price-area .inner-area .text {
+        font-size: 25px;
+        font-weight: 400;
+        position: absolute;
+        top: -10px;
+        left: 17px;
+    }
+
+    .price-area .inner-area .price {
+        font-size: 55px;
+        font-weight: 500;
+    }
+
+    .table .package-name {
+        width: 100%;
+        height: 2px;
+        background: #ffecb3;
+        margin: 35px 0;
+        position: relative;
+    }
+
+        .table .package-name::before {
+            position: absolute;
+            content: "Basic";
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            font-size: 25px;
+            padding: 0 10px;
+            font-weight: bolder;
+        }
+
+    .table .features li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .features li .list-name {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .features li .icon {
+        font-size: 15px;
+    }
+
+        .features li .icon.check {
+            color: #2db94d;
+        }
+
+        .features li .icon.cross {
+            color: #cd3241;
+        }
+
+    .table .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+        .table .btn button {
+            width: 80%;
+            height: 50px;
+            font-weight: 700;
+            color: #fff;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            align-items: center;
+        }
+
+    .basic .price-area,
+    .basic .inner-area {
+        background: #ffd861;
+    }
+
+    .basic .btn button {
+        background: #fff;
+        color: #ffd861;
+        border: 2px solid #ffd861;
+        align-items: center;
+    }
+
+        .basic .btn button:hover {
+            border-radius: 6px;
+            background: #ffd861;
+            color: #fff;
+            align-items: center;
+            align-items: center;
+        }
+
+    .Premium .price-area,
+    .Premium .inner-area {
+        background: #a26bfa;
+    }
+
+    .Premium .btn button {
+        background: #fff;
+        color: #a26bfa;
+        border: 2px solid #a26bfa;
+        align-items: center;
+    }
+
+        .Premium .btn button:hover {
+            border-radius: 6px;
+            background: #a26bfa;
+            color: #fff;
+            align-items: center;
+        }
+
+    .Ultimate .price-area,
+    .Ultimate .inner-area {
+        background: #43ef8b;
+    }
+
+    .Ultimate .btn button {
+        background: #fff;
+        color: #43ef8b;
+        border: 2px solid #43ef8b;
+        align-items: center;
+    }
+
+        .Ultimate .btn button:hover {
+            border-radius: 6px;
+            background: #43ef8b;
+            color: #fff;
+            align-items: center;
+        }
+
+    .basic .package-name {
+        background: #ffecb3;
+    }
+
+    .Premium .package-name {
+        background: #a26bfa;
+    }
+
+    .Ultimate .package-name {
+        background: #43ef8b;
+    }
+
+    .basic .package-name::before {
+        content: "Basic";
+    }
+
+    .Premium .package-name::before {
+        content: "Premium";
+    }
+
+    .Ultimate .package-name::before {
+        content: "Ultimate";
+    }
+
+    .basic ::selection,
+    .basic .price-area,
+    .basic .inner-area {
+        background: #ffd861;
+    }
+
+    .Premium ::selection,
+    .Premium .price-area,
+    .Premium .inner-area {
+        background: #a26bfa;
+    }
+
+    .Ultimate ::selection,
+    .Ultimate .price-area,
+    .Ultimate .inner-area {
+        background: #43ef8b;
+    }
+
+    .toggle {
+        margin-top: 2rem;
+        color: hsl(234, 14%, 74%);
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle-btn {
+        margin: 0 1rem;
+    }
+
+    .checkbox {
+        display: none;
+    }
+
+    .sub {
+        background: linear-gradient( 135deg, rgba(163, 168, 240, 1) 0%, rgba(105, 111, 221, 1) 100% );
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* height: 25px;
+    width: 50px; */
+        height: 1.6rem;
+        width: 3.3rem;
+        border-radius: 1.6rem;
+        padding: 0.3rem;
+    }
+
+    .circle {
+        background-color: #fff;
+        height: 1.4rem;
+        width: 1.4rem;
+        border-radius: 50%;
+    }
+
+    .checkbox:checked + .sub {
+        justify-content: flex-end;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: #fff;
+        color: hsl(233, 13%, 49%);
+        border-radius: 0.8rem;
+    }
+
+    .cards .card.active {
+        background: linear-gradient( 135deg, rgba(163, 168, 240, 1) 0%, rgba(105, 111, 221, 1) 100% );
+        color: #fff;
+        display: flex;
+        align-items: center;
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    ul {
+        margin: 2.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+        ul li {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 1rem 0;
+        }
+
+            ul li.price {
+                font-size: 3rem;
+                color: hsl(232, 13%, 33%);
+                padding-bottom: 2rem;
+            }
+
+    .shadow {
+        box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .card.active .price {
+        color: #fff;
+    }
+
+    .btn {
+        margin-top: 1rem;
+        height: 2.6rem;
+        width: 13.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background: linear-gradient( 135deg, rgba(163, 168, 240, 1) 0%, rgba(105, 111, 221, 1) 100% );
+        color: #fff;
+        outline: none;
+        border: 0;
+        font-weight: bold;
+    }
+
+    .active-btn {
+        background: #fff;
+        color: hsl(237, 63%, 64%);
+    }
+
+    .bottom-bar {
+        border-bottom: 2px solid hsla(240, 8%, 85%, 0.582);
+    }
+
+    .card.active .bottom-bar {
+        border-bottom: 2px solid hsla(240, 8%, 85%, 0.253);
+    }
+
+    .pack {
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 280px) {
+        ul {
+            margin: 1rem;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        .toggle {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+        }
+
+        .cards {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            transform: scale(0.8);
+            margin-bottom: 1rem;
+        }
+
+        .cards .card.active {
+            transform: scale(0.8);
+        }
+    }
+
+    @media (min-width: 280px) and (max-width: 320px) {
+        ul {
+            margin: 10px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            margin-bottom: 1rem;
+        }
+
+        .cards .card.active {
+            transform: scale(1);
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 414px) {
+        .cards {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            margin-bottom: 1rem;
+        }
+
+        .cards .card.active {
+            transform: scale(1);
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 768px) {
+        .card {
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+        }
+
+        .cards .card.active {
+            transform: scale(1);
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1046px) {
+        .cards {
+            display: flex;
+        }
+
+        .card {
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+        }
+
+        .cards .card.active {
+            transform: scale(1);
+        }
+    }
+</style>
+    </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Faithful</span>PARTNER</h1>
+        </a>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Offer Start -->
+    <div class="container-fluid bg-offer my-5 py-5">
+        <div class="container py-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="section-title position-relative text-center mx-auto mb-4 pb-3" style="max-width: 600px;">
+                        <h3 class="text-white">CrestWave Advertising Services</h3>
+                    </div>
+                    <p></p>
+                    <p class="text-white">how can we help you get started?</p>
+                    <p>.</p>
+                    <a href="#" class="button inner py-3 px-5" style="background-color: #a26bfa; color: white;">Book now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer Start -->
+    <div class="buttons">
+        <button onclick="showPricing('monthly')">Monthly</button>
+        <button onclick="showPricing('yearly')">Annually</button>
+        <button onclick="showPricing('custom')">Custom</button>
+    </div>
+    <p></p>
+    <div class="pricing-table">
+        <div class="ptable-item">
+            <div class="ptable-single">
+                <div class="ptable-header">
+                    <div class="ptable-title">
+                        <h2>MS Advertising</h2>
+                    </div>
+                </div>
+                <div class="ptable-body">
+                    <div class="ptable-description">
+                        <button class="product btn-primary" data-monthly="$550/month" data-yearly="$6000/yearly" data-custom="Discuss now">$550/month</button>
+                        <ul>
+                            <li>Advertise on Bing and LinkedIn.Create a campaign</li>
+                        </ul>
+                        <img class="img-fluid" src="https://mjahmad1.github.io/me/img/msad.jpg" alt="" style="width: 200px; height: 150px;">
+                    </div>
+                </div>
+                <div class="ptable-footer">
+                    <div class="ptable-action">
+                        <a href="https://donate.stripe.com/fZe3fP5be80weqs28c">get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ptable-item featured-item">
+            <div class="ptable-single">
+                <div class="ptable-header">
+                    <div class="ptable-title">
+                        <h2>Google Advertising</h2>
+                    </div>
+                </div>
+                <div class="ptable-body">
+                    <div class="ptable-description">
+                        <button class="product btn-primary" data-monthly="$600/month" data-yearly="$6500/yearly" data-custom="Discuss now">$600/month</button>
+                        <ul>
+                            <li>Advertise on Google Search and Display Network.</li>
+                        </ul>
+                        <img class="img-fluid" src="https://mjahmad1.github.io/me/img/gad.jpg" alt="" style="width: 200px; height: 150px;">
+                    </div>
+                </div>
+                <div class="ptable-footer">
+                    <div class="ptable-action">
+                        <a href="">get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ptable-item">
+            <div class="ptable-single">
+                <div class="ptable-header">
+                    <div class="ptable-title">
+                        <h2>Meta Advertising</h2>
+                    </div>
+                </div>
+                <div class="ptable-body">
+                    <div class="ptable-description">
+                        <button class="product btn-primary" data-monthly="$500/month" data-yearly="$4900/yearly" data-custom="Discuss now">$500/month</button>
+                        <ul>
+                            <li>Reach your audience on Facebook and Instagram.</li>
+                        </ul>
+                        <img class="img-fluid" src="https://mjahmad1.github.io/me/img/mad.jpg" alt="" style="width: 150px; height: 150px;">
+                    </div>
+                </div>
+                <div class="ptable-footer">
+                    <div class="ptable-action">
+                        <a href="#ser">get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing End -->
+    <div class="container">
+        <div class="row">
+            <div class="bg-primary border-inner text-center text-white p-5">
+                <h4 class="text-uppercase mb-3">Please Email for Custom Services</h4>
+                <a href="mailto:mjahmad2024@outlook.com" style="color: white;">mjahmad2024@outlook.com</a>
+            </div>
+        </div>
+    </div>
+    .
+    <!-- Pricing Start -->
+    <!-- Pricing End -->
+    <!-- Ser Start -->
+    <!-- Ser End -->
+    <!-- Ser Start -->
+    <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+        <h2 class="text-primary font-secondary">30% Discount For This Summer</h2>
+    </div>
+    <a href="#" class="button inner py-3 px-5" style="background-color: #a26bfa; color: white;">Order now</a>
+    <p>.</p>
+    <h1 class="display-4 text-uppercase">Outher Services </h1>
+
+    <div class="container-fluid service position-relative px-5 mt-5" style="margin-bottom: 135px;">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-primary border-inner text-center text-white p-5">
+                        <h4 class="text-uppercase mb-3">Web Development</h4>
+                        <p>Creating responsive and dynamic websites using HTML,<br /> CSS, JS, PHP.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-primary border-inner text-center text-white p-5">
+                        <h4 class="text-uppercase mb-3">Payment Integration</h4>
+                        <p>Implementing secure and efficient payment solutions with Stripe and VISA</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-primary border-inner text-center text-white p-5">
+                        <h4 class="text-uppercase mb-3">SEO Optimization</h4>
+                        <p>Enhancing your website's visibility on search engines to attract more traffic.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-primary border-inner text-center text-white p-5">
+                        <h4 class="text-uppercase mb-3">Technical Support</h4>
+                        <p>Providing ongoing maintenance and support for your web projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-primary border-inner text-center text-white p-5">
+                        <h4 class="text-uppercase mb-3">E-commerce Solution</h4>
+                        <p>Setting up and managing online stores to help you reach a broader audience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-primary border-inner text-center text-white p-5">
+                        <h4 class="text-uppercase mb-3">Microsoft Solutions</h4>
+                        <p>Leveraging my Microsoft Partner status to provide top-notch services and solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6 text-center">
+                    <h1 class="text-uppercase text-light mb-4">Any type of custom software or, web design services</h1>
+                    <p>.</p>
+                    <a href="https://outlook.live.com/mjahmad2024@outlook.com" class="button inner py-3 px-5" style="background-color: #a26bfa; color: white;">Discuss with us </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ser End -->
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+                <h2 class="text-primary font-secondary">With Respect</h2>
+                <h1 class="display-4 text-uppercase">Source of Inspiration</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item bg-dark text-white border-inner p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaaaa.jpg" style="width: 60px; height: 60px;">
+                        <div class="ps-3">
+                            <h4 class="text-primary text-uppercase mb-1">David Westlake</h4>
+                            <span>Fri 13-Sep-24 7:47 PM</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        You're invited to join ComfortSmithson - a recent contestant on the Great British  Sewing Bee - and Crislyn from IJM's team in South East Asia for an inspiring free webinar!
+                    </p>
+                </div>
+                <div class="testimonial-item bg-dark text-white border-inner p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaaa.jpg" style="width: 60px; height: 60px;">
+                        <div class="ps-3">
+                            <h4 class="text-primary text-uppercase mb-1">Microsoft Partner</h4>
+                            <span></span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        You can now access all the benefits of the Microsoft Partner Network, access technical and marketing resources, and more.
+                    </p>
+                </div>
+                <div class="testimonial-item bg-dark text-white border-inner p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaaa.jpg" style="width: 60px; height: 60px;">
+                        <div class="ps-3">
+                            <h4 class="text-primary text-uppercase mb-1">Microsoft Partner Center</h4>
+                            <span>Sat 2024-09-07 4:23 AM</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        We've successfully verifiedyour profile, and you now have fullaccess to Microsoft Partner Center.
+                    </p>
+                </div>
+                <div class="testimonial-item bg-dark text-white border-inner p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaa.jpg" style="width: 60px; height: 60px;">
+                        <div class="ps-3">
+                            <h4 class="text-primary text-uppercase mb-1">Satya Nadella</h4>
+                            <span>May 28, 2024</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        MJ-AHMAD has successfully completed
+                        Get started building apps for Microsoft Teams by using Teams Toolkit for Visual Studio Code
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="https://mjahmad1.github.io/cwbd/img/aa.png" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4">
+                        Experience the latest innovations for AI transformation
+                    </h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://ignite.microsoft.com/en-US/home">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="https://mjahmad1.github.io/cwbd/img/a.png" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4">
+                        Learn what technologists need to know about AI transformation
+                    </h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://ignite.microsoft.com/en-US/home">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="https://mjahmad1.github.io/cwbd/img/aaa.png" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4">
+                        Get the most out of your Microsoft partnership in the era of AI
+                    </h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://ignite.microsoft.com/en-US/home">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        function showPricing(type) {
+            const products = document.querySelectorAll('.product');
+            products.forEach(product => {
+                product.textContent = product.getAttribute(`data-${type}`);
+            });
+        }
+    </script>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">
+                &copy; 2024 <a class="text-white font-weight-bold" href="#">MJ AHMAD</a>. All Rights Reserved.</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="l/lib/easing/easing.min.js"></script>
+    <script src="l/lib/waypoints/waypoints.min.js"></script>
+    <script src="l/lib/counterup/counterup.min.js"></script>
+    <script src="l/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="l/js/main.js"></script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const checkbox = document.getElementById("checkbox");
+        const professional = document.getElementById("professional");
+        const master = document.getElementById("master");
+        const basic = document.getElementById("basic");
+
+        checkbox.addEventListener("click", () => {
+            basic.textContent = basic.textContent === "$199.99" ? "$19.99" : "$199.99";
+            professional.textContent = professional.textContent === "$249.99" ? "$24.99 " : "$249.99";
+            master.textContent = master.textContent === "$399.99" ? "$39.99" : "$399.99";
+        });
+    </script>
+</body>
+</html>
+$500/month
